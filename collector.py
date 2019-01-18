@@ -19,7 +19,6 @@ csvwriter = None
 preData = None
 
 while True:
-    # data = connector._curl_bitmex(path="instrument", verb="GET", query=query, timeout=10)
     data = connector.ticker_data(symbol=settings.SYMBOL)
     data['timestamp'] = datetime.now()
     data['symbol'] = settings.SYMBOL
