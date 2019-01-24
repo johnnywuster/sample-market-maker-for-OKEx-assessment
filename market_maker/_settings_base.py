@@ -11,8 +11,8 @@ import logging
 BASE_URL = "wss://www.bitmex.com/realtime"
 
 # The BitMEX API requires permanent API keys. Go to https://testnet.bitmex.com/app/apiKeys to fill these out.
-API_KEY = "jKajXA3VAoJT8kjHS0dy1hP6"
-API_SECRET = "C3bUluV7ZF3RjPrXSBuwB7ciyg1PPPsQHhS1n6MdXH4DShY2"
+API_KEY = ""
+API_SECRET = ""
 
 
 ########################################################################################################################
